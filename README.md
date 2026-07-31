@@ -1,89 +1,172 @@
 # ⚡ CodeMorph AI
 
-AI powered multi-language code translator built with Next.js and FastAPI.
+![CodeMorph AI Banner](./assets/banner.png)
 
-CodeMorph AI converts code from one programming language to another using AI.
+> AI-powered multi-language code translator built with Next.js, FastAPI, and Gemini AI.
 
-## 🚀 Features
+CodeMorph AI is an AI-based code conversion tool that converts source code from one programming language into another using artificial intelligence.
 
-- Multi-language code conversion
-- Monaco code editor
-- Python, C++, Java, JavaScript, TypeScript, Go, Rust and more
-- Hello World templates for languages
-- Copy converted code
-- Download converted code
-- Dark UI
-- FastAPI backend
-- Next.js frontend
+---
 
+# 🚀 Features
 
-## 🛠 Tech Stack
+- ✅ Multi-language code conversion
+- ✅ Monaco code editor
+- ✅ Modern dark UI
+- ✅ Hello World templates for multiple languages
+- ✅ Copy converted code
+- ✅ Download converted code
+- ✅ FastAPI backend
+- ✅ Next.js frontend
+- ✅ AI-powered conversion using Gemini API
 
-### Frontend
+---
+
+# 🌐 Supported Languages
+
+- Python
+- C++
+- JavaScript
+- TypeScript
+- Java
+- C
+- C#
+- Go
+- Rust
+- PHP
+- Kotlin
+- Swift
+
+---
+
+# 🖼️ Preview
+
+![CodeMorph AI Screenshot](./assets/screenshot.png)
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
 - Next.js
 - React
 - TypeScript
 - Tailwind CSS
 - Monaco Editor
 
-### Backend
+## Backend
+
 - FastAPI
 - Python
 - Gemini AI API
 
+---
 
-## 📦 Installation
+# 📁 Project Structure
 
+![CodeMorph AI Screenshot](./assets/screenshot3.png)
 
-### Clone Repository
+---
+
+# 📦 Installation
+
+## Clone Repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Zohaibcode740/CodeMorph-AI.git
 
-Backend Setup
+cd CodeMorph-AI
+```
+
+## ⚙️ Backend Setup
 
 Go to backend folder:
 
-cd backend
+```cd backend```
 
 Create virtual environment:
 
-python -m venv venv
+```python -m venv venv```
 
-Activate:
+Activate virtual environment (Windows):
 
-Windows:
-
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
-Create .env file:
+Create a .env file inside the backend folder:
 
-GEMINI_API_KEY=your_ai_api_key_here
+```GEMINI_API_KEY=your_api_key_here```
 
-Run backend:
+Run backend server:
 
-uvicorn app.main:app --reload
-Frontend Setup
+```uvicorn app.main:app --reload```
 
-Go to frontend folder:
+Backend will run on:
 
-cd frontend
+```http://localhost:8000```
+
+## 💻 Frontend Setup
+
+Open another terminal:
+
+```cd frontend```
 
 Install packages:
 
-npm install
+```npm install```
 
-Run:
+Run development server:
 
-npm run dev
-🔑 API Key
+```npm run dev```
 
-This project requires an AI API key.
+Frontend will run on:
 
-Create your own API key and add it to your .env file.
+```http://localhost:3000```
 
-Do not upload API keys to GitHub.
+##  🔑 API Key Setup
+
+CodeMorph AI requires a Gemini AI API key.
+
+Create your own Gemini API key and add it inside:
+
+```backend/.env```
+
+Example:
+
+```GEMINI_API_KEY=your_key_here```
+
+⚠️ Never upload your API key to GitHub.
+
+Keep your .env file private.
+
+## 🔒 Environment Variables
+
+```Create .gitignore file and add:```
+```
+.env
+backend/.env
+frontend/.env
+venv/
+node_modules/
+.next/
+```
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Feel free to fork this project and improve it.
+
+## 📜 License
+
+MIT License
+
+## 👨‍💻 Author
+
+Zohaibcode740
+
+Built with ❤️ using Next.js, FastAPI, and AI.
