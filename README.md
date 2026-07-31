@@ -1,6 +1,6 @@
 # ⚡ CodeMorph AI
 
-![CodeMorph AI Banner](./assets/banner.png)
+![CodeMorph AI Banner](./assets/screenshot1.png)
 
 > AI-powered multi-language code translator built with Next.js, FastAPI, and Gemini AI.
 
@@ -39,11 +39,7 @@ CodeMorph AI is an AI-based code conversion tool that converts source code from 
 
 ---
 
-# 🖼️ Preview
 
-![CodeMorph AI Screenshot](./assets/screenshot.png)
-
----
 
 # 🛠️ Tech Stack
 
