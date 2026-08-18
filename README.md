@@ -166,3 +166,10 @@ MIT License
 Zohaibcode740
 
 Built with ❤️ using Next.js, FastAPI, and AI.
+
+Frontend dependencies are missing
+
+From the frontend directory, run:
+
+npm install
+Gemini API errors
