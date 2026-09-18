@@ -167,6 +167,9 @@ Zohaibcode740
 
 Built with ❤️ using Next.js, FastAPI, and AI.
 
-1. Clone Repository
-git clone https://github.com/Zohaibcode740/CodeMorph-AI.git
-cd CodeMorph-AI
+Frontend dependencies are missing
+
+From the frontend directory, run:
+
+npm install
+Gemini API errors
